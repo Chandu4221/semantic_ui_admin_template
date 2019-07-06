@@ -1,0 +1,19 @@
+{
+  "name": "semantic_ui_admin_template",
+  "version": "1.0.0",
+  "description": "Sample Admin Dashboard Template using SemanticUI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chandu4221/semantic_ui_admin_template.git"
+  },
+  "author": "D.S.L.Chandra Shekhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chandu4221/semantic_ui_admin_template/issues"
+  },
+  "homepage": "https://github.com/Chandu4221/semantic_ui_admin_template#readme"
+}
