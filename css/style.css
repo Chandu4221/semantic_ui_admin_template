@@ -1,0 +1,12 @@
+:root {
+  --tablet: 768px;
+  --smallMonitor: 992px;
+  --largeMonitor: 1200px;
+}
+
+.ui.sidebar-menu {
+  margin-top: 40px !important;
+}
+
+@media (min-width: 768px) {
+}
