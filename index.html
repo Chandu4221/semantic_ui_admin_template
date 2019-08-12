@@ -13,11 +13,11 @@
     <!-- top nav -->
     <nav class="ui top fixed inverted menu">
       <div class="left menu">
-        <a href="#" class="ui item">
-          <div class="header">Semantic UI</div>
-        </a>
-        <a href="#" class="toc item">
+        <a href="#" class="sidebar-menu-toggler item">
           <i class="sidebar icon"></i>
+        </a>
+        <a href="#" class="header item">
+          Semantic UI
         </a>
       </div>
 
@@ -25,15 +25,27 @@
         <a href="#" class="item">
           <i class="bell icon"></i>
         </a>
-        <a href="#" class="item">
+        <div class="ui dropdown item">
           <i class="user cirlce icon"></i>
-          John Doe
-        </a>
+          <div class="menu">
+            <a href="#" class="item">
+              <i class="info circle icon"></i> Profile</a
+            >
+            <a href="#" class="item">
+              <i class="wrench icon"></i>
+              Settings</a
+            >
+            <a href="#" class="item">
+              <i class="sign-out icon"></i>
+              Logout
+            </a>
+          </div>
+        </div>
       </div>
     </nav>
     <!-- top nav -->
     <!-- sidebar -->
-    <div class="ui visible sidebar inverted vertical menu sidebar-menu">
+    <div class="ui left inverted sidebar vertical menu sidebar-menu">
       <a href="#" class="item">
         Home
       </a>
