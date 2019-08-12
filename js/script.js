@@ -1,8 +1,13 @@
 $(document).ready(function() {
   $('.ui.dropdown').dropdown();
   $('.sidebar-menu-toggler').on('click', function() {
-    $('.ui.sidebar')
-      .sidebar('setting', 'transition', 'overlay')
+    var target = $(this).data('target');
+    $(target)
+      .sidebar({
+        dinPage: true,
+        transition: 'overlay',
+        mobileTransition: 'overlay'
+      })
       .sidebar('toggle');
   });
 });
