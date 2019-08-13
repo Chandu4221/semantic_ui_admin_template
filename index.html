@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/semantic.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -13,19 +16,53 @@
 
     <div class="ui sidebar inverted vertical menu sidebar-menu" id="sidebar">
       <a class="item">
-        1
+        <div>
+          <i class="icon tachometer alternate"></i>
+          Dashboard
+        </div>
       </a>
       <a class="item">
-        2
+        <div>
+          <i class="icon lightbulb"></i>
+          Apps
+        </div>
+      </a>
+      <a href="#" class="item">
+        <div>
+          <i class="icon envelope"></i>
+          Messages
+        </div>
+      </a>
+      <a href="#" class="item">
+        <div>
+          <i class="icon chart line"></i>
+          Charts
+        </div>
+      </a>
+      <a href="#" class="item">
+        <div>
+          <i class="icon calendar alternate"></i>
+          Calendar
+        </div>
       </a>
       <a class="item">
-        3
+        <div><i class="cogs icon"></i>Settings</div>
       </a>
+      <div class="item">
+        <form action="#">
+          <div class="ui mini action input">
+            <input type="text" placeholder="Search..." />
+            <button class="ui mini icon button">
+              <i class=" search icon"></i>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
 
     <!-- sidebar -->
-    <!-- TODO: toggle the visible class on the small screen devices -->
     <!-- top nav -->
+
     <nav class="ui top fixed inverted menu">
       <div class="left menu">
         <a href="#" class="sidebar-menu-toggler item" data-target="#sidebar">
@@ -58,9 +95,21 @@
         </div>
       </div>
     </nav>
+
     <!-- top nav -->
 
-    <div class="pusher"></div>
+    <div class="pusher">
+      <div class="main-content">
+        <div class="ui grid padded">
+          <div class="column">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            harum modi obcaecati commodi porro nemo, saepe quam exercitationem
+            aut excepturi quas officia assumenda fugiat sint necessitatibus
+            vitae hic iste in!
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/semantic.js"></script>
