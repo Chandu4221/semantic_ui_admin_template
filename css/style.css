@@ -14,7 +14,6 @@ body ::-webkit-scrollbar {
 }
 .ui.vertical.menu.sidebar-menu {
   margin-top: 40px !important;
-  /* padding-bottom: 40px !important; */
   max-height: calc(100% - 40px) !important;
   height: calc(100% - 40px) !important;
 }
@@ -31,7 +30,7 @@ body ::-webkit-scrollbar {
     transform: translate3d(0, 0, 0);
   }
   .main-content {
-    margin-left: 15rem;
+    margin-left: 260px;
   }
   .sidebar-menu-toggler {
     display: none !important;
